@@ -103,7 +103,7 @@ class Calculator{
         clrButton.addActionListener(e -> display.setText(""));
 
 
-
+        f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
 }
 
